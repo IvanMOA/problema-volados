@@ -61,7 +61,7 @@ function reCalcularVolados() {
 				<ElInput type="number" v-model="form.apuesta"/>
 			</ElFormItem>
 		</ElForm>
-		<ElButton @click="reCalcularVolados" class="mb-12" type="primary">Re calcular</ElButton>
+		<ElButton @click="reCalcularVolados" class="mb-12" >Re calcular</ElButton>
 		<div>
 			<el-table :data="filas" stripe style="width: 100%">
 				<el-table-column prop="numeroDeCorrida" label="Número de corrida"/>
