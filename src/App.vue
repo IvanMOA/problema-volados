@@ -39,7 +39,7 @@ function reCalcularVolados() {
 <template>
 	<div class="flex flex-col justify-center items-center md:p-16 lg:p-20">
 		<div class="flex flex-col items-center mb-20">
-			<h1 class="text-2xl font-bold text-gray-700 uppercase text-center">Modelado y Simulación de Sistemas - PIA</h1>
+			<h1 class="text-2xl font-bold text-gray-700 uppercase text-center">Modelado y Simulación de Sistemas</h1>
 			<h1 class="text-xl font-bold text-gray-600 text-center">Volados</h1>
 			<h1 class="text-xl font-bold text-gray-600 mt-8">INTEGRANTES</h1>
 			<el-table :data="integrantes" stripe style="width: 100%">
